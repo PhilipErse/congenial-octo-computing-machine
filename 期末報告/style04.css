@@ -1,0 +1,173 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box
+}
+
+.main-content{
+    text-align: center;
+    background: radial-gradient(circle at bottom, #51d8cd 0, #e7198d 100%);
+    overflow: hidden;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8% 20px 8%;
+    position:fixed;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .logo{
+    color: pink;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  nav li:hover>ul.dropdown-menu{
+    display:grid;
+    color: #f9004d;
+  }
+  
+  .nav-item{
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    }
+  
+  nav ul li a:hover{
+    color: #f9004d;
+  }
+
+.理念{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: rgba(65, 1, 93, 0.479);
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+
+}
+.理念 h1{
+    padding: 50px 0 50px 0;
+    margin:0%;
+    text-align: center;
+    flex:1;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.理念-text{
+    width:1130px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.主頁{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(65, 1, 93, 0.479);
+    align-items: center;
+    justify-content:space-around ;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.主頁 h1{
+    padding: 20px 0 50px 0;
+    margin: 0%;
+    text-align: center;
+    flex: 1;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.主頁-text{
+    width:1130px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.成員介紹{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(65, 1, 93, 0.479);
+    align-items: center;
+    justify-content:space-around ;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.成員介紹 h1{
+    padding: 20px 0 50px 0;
+    margin: 0%;
+    text-align: center;
+    flex: 1;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.成員介紹-text{
+    width:1130px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.舞臺與綜藝{
+    width: 100%;
+    padding: 50px 0px;
+    background-color: rgba(65, 1, 93, 0.479);
+    align-items: center;
+    justify-content:space-around ;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+    height: 100vh;
+}
+
+.舞臺與綜藝 h1{
+    padding: 20px 0 50px 0;
+    margin: 0%;
+    text-align: center;
+    flex: 1;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.舞臺與綜藝-text{
+    width:1130px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer{
+    padding: 50px 0;
+    background-color: #191919;
+}

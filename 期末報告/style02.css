@@ -1,0 +1,112 @@
+nav h2{
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+}
+
+nav{
+	display: flex;
+    position:fixed;
+    justify-content: space-between;
+    width: 100%;
+	padding: 20px 8% 0px 8%;
+    background-color: black;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+	padding: 10px 25px;
+}
+
+.logo{
+    color: pink;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    align-items: center;
+}
+
+nav ul li a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav ul li a:hover{
+    color: #f9004d;
+}
+
+
+.正規專輯 {
+	padding-bottom:150px;
+    display:flex
+}
+
+.title{
+    padding:20px;
+}
+
+h1{
+	padding: 100px 200px;
+	align-items: center;
+	text-align: center;
+}
+
+.正規專輯 .section1 {
+    flex:1 1 auto;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+.正規專輯 .section2 {
+    flex:1 1 auto;
+	padding: 20px 10px;
+	margin-bottom: 10px;
+}
+
+.正規專輯 img {
+	width:50%;
+	margin-bottom:20px;
+}
+
+.正規專輯 img:hover {
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+	transition: .3s;
+}
+
+.迷你專輯 img:hover{
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+	transition: .3s;
+}
+.product_name {
+	padding-top:40px;
+    padding-bottom:0 px;
+}
+
+.精選專輯 h2{
+	padding-top: 50px;
+}
+
+.精選專輯 img:hover{
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+	transition: .3s;
+}
+
+.container_01{
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	min-height: 400px;
+	border-color: #fd007e;
+	text-align: center;
+
+}
+
+.日語專輯 img:hover{
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.8);
+	transition: .3s;
+}
+
+p{
+	font-weight: bold;
+}

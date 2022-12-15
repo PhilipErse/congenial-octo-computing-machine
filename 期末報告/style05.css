@@ -1,0 +1,320 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 8% 20px 8%;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .logo{
+    color: pink;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  nav li:hover>ul.dropdown-menu{
+    display:grid;
+    color: #f9004d;
+  }
+  
+  .nav-item{
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  nav ul li a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    }
+  
+  nav ul li a:hover{
+    color: #f9004d;
+  }
+
+.header{
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(to bottom, rgb(0, 0, 0)20%, rgb(72, 72, 72));
+}
+
+.header h1{
+    padding: 150px 20px;
+    font-size: 75px;
+    color: white;
+    font-weight: bolder;
+}
+
+.header p{
+    padding: 20px 105px;
+    margin: auto;
+    letter-spacing: 1.7px;
+    color: white;
+}
+
+.主題{
+    height: 50vh;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 150px;
+    background: black;
+    font-size: 35px;
+    font-weight:900;
+    color: white;
+
+}
+
+
+.經典舞臺{
+    align-items: stretch;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -moz-justify-content: -moz-flex-end;
+    -webkit-justify-content: -webkit-flex-end;
+    -ms-justify-content: -ms-flex-end;
+    justify-content: flex-end;
+    position: relative;
+    overflow-x: hidden;
+    text-align: left;
+    background: black;
+    padding: 15px 15px;
+}
+
+
+.經典舞臺-content {
+    padding: 7rem 80px 5rem 30px ;
+    -moz-align-self: center;
+    -webkit-align-self: center;
+    -ms-align-self: center;
+    align-self: center;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    width: 65%;
+    max-width: 64rem;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+.經典舞臺-content h3{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.經典舞臺-image {
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 35%;
+    min-width: 25rem;
+    border-radius: 0;
+}
+
+.經典舞臺-image img{
+    -moz-object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
+    object-fit: cover;
+    -moz-object-position: center;
+    -webkit-object-position: center;
+    -ms-object-position: center;
+    object-position: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.綜藝節目{
+    display: flex;
+    -moz-flex-direction: row;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -moz-justify-content: -moz-flex-end;
+    -webkit-justify-content: -webkit-flex-end;
+    -ms-justify-content: -ms-flex-end;
+    justify-content: flex-end;
+    position: relative;
+    overflow-x: hidden;
+    background: black;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    background:black;
+}
+
+.綜藝節目-content {
+    padding: 7rem 80px 5rem 30px ;
+    -moz-align-self: center;
+    -webkit-align-self: center;
+    -ms-align-self: center;
+    align-self: center;
+    -moz-flex-grow: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-grow: 1;
+    flex-grow: 1;
+    -moz-flex-shrink: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-shrink: 1;
+    flex-shrink: 1;
+    width: 65%;
+    max-width: 64rem;
+    margin: 0 auto;
+    color: white;
+    font-weight: bold;
+}
+
+.綜藝節目-image {
+    -moz-flex-grow: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-grow: 0;
+    flex-grow: 0;
+    -moz-flex-shrink: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-shrink: 0;
+    flex-shrink: 0;
+    width: 35%;
+    min-width: 25rem;
+    border-radius: 0;
+}
+
+.綜藝節目-image img{
+    -moz-object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
+    object-fit: cover;
+    -moz-object-position: center;
+    -webkit-object-position: center;
+    -ms-object-position: center;
+    object-position: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.綜藝節目-content h3{
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+
+.經典舞臺-title{
+    width: 100%;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    padding: 100px 20px;
+    font-size: 50px;
+}
+
+
+.綜藝節目 h1{
+    padding: 180px 20px;
+    font-size: 75px;
+    color: white;
+}
+
+.比賽 {
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    width: 100%;
+    background:linear-gradient(to bottom, rgb(0, 0, 0)20%, rgb(72, 72, 72));
+}
+
+.比賽 h1{
+    padding: 180px 20px;
+    font-size: 75px;
+    color: white;
+}
+
+.比賽-content{
+    height: 120vh;
+    background-image: linear-gradient(to right, rgba(255,255,255,0)20%,#191919), url(img/mamamooQueendom.jpg);
+    align-items:initial;
+    justify-content:first baseline;
+}
+
+.比賽-content h2 {
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lucida handwritting', fantasy;
+}
+
+.比賽-content p{
+    padding: 25px 25px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    transform: scale(1.2);
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+
+}
+
+.主題 h1{
+    font-weight: bold;
+}
+
+.比賽 h1{
+    font-weight: bold;
+}

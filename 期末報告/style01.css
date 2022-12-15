@@ -1,0 +1,243 @@
+﻿*{
+    padding:0;
+    margin:0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0)20%,#191919),url(img/mamamoo3.jpg);
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8% 20px 8%;
+    position:relative;
+}
+
+.logo{
+    color: pink;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav li:hover>ul.dropdown-menu{
+    display:grid;
+    color: #f9004d;
+}
+
+.nav-item{
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+nav ul li a:hover{
+    color: #f9004d;
+}
+
+.content{
+    color:white;
+    margin: 20px 0 20px 0;
+    font-size: 45px;
+    font-weight: bold;
+    background-color: black;
+
+}
+
+.認識MAMAMOO{
+    width: 100%;
+    padding: 120px 0 20px 0;
+    background-color: #191919;
+}
+
+.認識MAMAMOO h2{
+    color: #9354a5;;
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+.主頁{
+    width:100%;
+    padding: 60px 0 180px 0;
+    background-color: #191919;
+}
+
+.主頁 img{
+    height:auto;
+    width: 430px;
+}
+
+.main{
+    width:1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.簡介{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #191919;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    height: 120vh;
+}
+
+.簡介-text{
+    color: white;
+    width: 1130px;
+}
+
+.簡介 h2{
+    padding: 20px 0 70px 0;
+    margin:0%;
+    text-align: center;
+    flex:1;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.簡介 p{
+    margin:0%;
+    text-align: justify;
+    flex:1;
+    font-size: 25.5px;
+}
+
+.greetings{
+    position:absolute;
+    top:90%;
+    left:8%;
+    transform: translateY(-50%);
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.main-text{
+    color: white;
+    font-size:25px;
+    padding-left: 18px;
+    width: 550px;
+}
+
+.main-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.main-text h5{
+    font-size: 15px;
+    opacity:60%;
+}  
+
+.名稱由來{
+    width: 100%;
+    padding: 80px 0 120px 0;
+    background-color: #191919;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.名稱由來-text{
+    color: white;
+    width: 1130px;
+}
+
+.名稱由來 h2{
+    padding: 20px 0 70px 0;
+    margin:0%;
+    text-align: center;
+    flex:1;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.firstsentence{
+    text-align: center;
+    flex:1;
+    font-size: 25px;
+}
+.secondsentence{
+    text-align: justify;
+    flex:1;
+    font-size: 24.5px;
+}
+
+.粉絲名稱{
+    height: 150vh;
+    width: 100%;
+    padding: 120px 0px;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    background: linear-gradient(to top, rgba(255,255,255,0) 0%,#191919),url(img/moomoolightstick.jpg);
+}
+
+
+
+.粉絲名稱 h2{
+    padding: 20px 0 70px 0;
+    margin:0%;
+    text-align: center;
+    flex:1;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: #f9004d;
+}
+
+.粉絲名稱-text{
+    color: white;
+    width: 1130px;
+}
+
+.粉絲名稱 p{
+    margin:0%;
+    text-align: center;
+    flex:1;
+    font-size: 22px;
+}
+
+footer{
+    background-color:#191919;
+    padding:50px 0;
+}
+
